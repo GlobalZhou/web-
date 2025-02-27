@@ -1,0 +1,39 @@
+/* 基础样式 */
+body {
+  background: #f5f5dc; /* 纸质米色 */
+  font-family: '微软雅黑', sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 20px;
+  background: rgba(255,255,255,0.9);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* 纸张投影 */
+}
+
+/* 登录框优化 */
+.login-box {
+  width: 300px;
+  margin: 20px auto;
+}
+.login-box input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+/* 导航菜单 */
+.menu {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+  border-bottom: 2px solid #ddd;
+}
+.menu a {
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
